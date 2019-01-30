@@ -1,0 +1,31 @@
+
+
+.title {
+    text-align: center;
+    font-size: 50px;
+    top: 20%;
+    position: absolute;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%,-50%);
+
+}
+
+.subtitles {
+    font-size: 50px;
+    color: #FF4567;
+}
+
+.column {
+    display: inline-block;
+    color: #000000;
+    margin: 100px;
+    height: 200px;
+    vertical-align: top;
+}
+
+.links {
+    position: absolute;
+    top: 20%;
+    left:12%;
+}
