@@ -1,0 +1,203 @@
+body {
+  background-color: #000000;
+}
+
+h3{
+  font:arial;
+  color: red;
+}
+
+.triangle1 {
+      width: 0;
+      height: 0;
+      border-top: 100px solid transparent;
+      border-left: 100px solid rgb(102,204,255);
+      border-bottom: 100px solid transparent;
+      position: absolute;
+      left: 200px;
+      top: 150px;
+      }
+
+.triangle2 {
+      width: 0;
+      height: 0;
+      border-top: 130px solid transparent;
+      border-left: 130px solid rgb(264,144,117);
+      border-bottom: 130px solid transparent;
+      position: absolute;
+      left: 200px;
+      top: 350px;
+
+      
+    }
+
+.triangle3 {
+      width: 0;
+      height: 0;
+      border-top: 200px solid transparent;
+      border-left: 200px solid rgb(255, 102, 255);
+      border-bottom: 200px solid transparent;
+      position: absolute;
+      left: 1200px;
+      top: 50px;
+      
+
+    }
+
+.triangle4 {
+    width: 0;
+      height: 0;
+      border-left: 240px solid transparent;
+      border-right: 240px solid transparent;
+      border-top: 240px solid rgb(329,141,182);
+      position: absolute;
+      left: 450px;
+      top: 20px;
+      -webkit-transform: translate(0px, 0px);
+                     transform: rotate(-140deg);
+}
+
+.triangle5 {
+    width: 0;
+      height: 0;
+      border-left: 260px solid transparent;
+      border-right: 260px solid transparent;
+      border-top: 260px solid rgb(0, 153, 255);
+      position: absolute;
+      left: 900px;
+      top: 300px;
+      transform: rotate(-130deg);
+}
+
+.triangle6 {
+    width: 0;
+      height: 0;
+      border-left: 200px solid transparent;
+      border-right: 200px solid transparent;
+      border-top: 200px solid rgb(51, 153, 51);
+      position: absolute;
+      left: 700px;
+      top: 150px;
+      opacity:0.5;
+      
+}
+
+
+.triangle7 {
+    width: 0;
+      height: 0;
+      border-top: 220px solid transparent;
+      border-right: 220px solid rgb(255, 153, 255);
+      border-bottom: 220px solid transparent;
+      position: absolute;
+      left: 950px;
+      top: 550px;
+      -webkit-transform: translate(0px, 0px);
+                     transform: rotate(270deg);
+      z-index: 90;
+}
+
+.triangle8 {
+    width: 0;
+      height: 0;
+      border-top: 200px solid transparent;
+      border-right: 200px solid rgb(230, 230, 0);
+      border-bottom: 200px solid transparent;
+      position: absolute;
+      left: 700px;
+      top: 550px;
+      opacity: 0.7
+}
+
+.triangle9 {
+    width: 0;
+      height: 0;
+      border-top: 100px solid transparent;
+      border-right: 100px solid rgb(0, 204, 255);
+      border-bottom: 100px solid transparent;
+      position: absolute;
+      left: 900px;
+      top: 150px;
+
+}
+
+.triangle10 {
+    width: 0;
+      height: 0;
+      border-bottom: 480px solid rgb(255, 153, 51);
+      border-left: 480px solid transparent;
+      position: absolute;
+      left: 100px;
+      top: 250px;
+      opacity: 0.4;
+    -webkit-transform: translate(0px, 0px);
+                     transform: rotate(-70deg)
+
+
+}
+
+.triangle12 {
+    width: 0;
+      height: 0;
+      border-bottom: 450px solid rgb(255, 204, 255);
+      border-left: 450px solid transparent;
+      position: absolute;
+      left: 200px;
+      top: 350px;
+      
+}
+
+.triangle13 {
+    width: 0;
+      height: 0;
+      border-bottom: 200px solid rgb(247,195,111);
+      border-left: 200px solid transparent;
+      position: absolute;
+      left: 700px;
+      top: 350px;
+      opacity: 0.6;
+      -webkit-transform: translate(0px, 0px);
+                     transform: translate(0px, 0px);
+}
+
+
+.triangle14 {
+    width: 0;
+      height: 0;
+      border-left: 100px solid transparent;
+      border-right: 100px solid transparent;
+      border-bottom: 100px solid rgb(72,55,104);
+      position: absolute;
+      left: 1050px;
+      top: 480px;
+      opacity: 0.7;
+      -webkit-transform: translate(0px, 0px);
+                     transform: rotate(-240deg)
+}
+
+.triangle15 {
+    width: 0;
+      height: 0;
+      border-left: 130px solid transparent;
+      border-right: 130px solid transparent;
+      border-bottom: 130px solid rgb(72,55,104);
+      position: absolute;
+      left: 500px;
+      top: 180px;
+    
+}
+
+.triangle16 {
+    width: 0;
+      height: 0;
+      border-left: 100px solid transparent;
+      border-right: 100px solid transparent;
+      border-bottom: 100px solid rgb(72,55,104);
+      position: absolute;
+      left: 90px;
+      top: 40px;
+      opacity: 0.8;
+      -webkit-transform: translate(0px, 0px);
+                     transform: translate(0px, 0px);
+}
+
