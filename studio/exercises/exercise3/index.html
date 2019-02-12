@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no">
+	<title>Monogram</title>
+</head>
+	<style>
+
+		html,body,p {
+			margin: 0;
+			padding: 0;
+		}
+
+		body {
+			background-color: black;
+		}
+	.shape {
+		position:fixed;
+    width: 50%;
+    padding: 10px;
+    border: 2px solid;
+    box-shadow: 3px 5px 9px pink;
+
+	}
+
+  #part {
+      width: 0px;
+      height: 0px;
+      border-right: 13vw solid transparent;
+      border-top: 13vw solid #ff33bb;
+      border-left: 13vw solid #ff33bb;
+      border-bottom: 13vw solid #ff33bb;
+      border-top-left-radius: 13vw;
+      border-top-right-radius: 13vw;
+      border-bottom-left-radius: 13vw;
+      border-bottom-right-radius: 13vw;
+      transform:rotate(225deg);
+      bottom: 3vw;
+      right: 42vw;
+      box-shadow: 0 15px 20px rgba(44, 14, 153, 0.67);
+      opacity: 0.6;
+
+    }
+   #part2 {
+      width: 0px;
+      height: 0px;
+      border-right: 13vw solid transparent;
+      border-top: 13vw solid #ff33bb;
+      border-left: 13vw solid #ff33bb;
+      border-bottom: 13vw solid #ff33bb;
+      border-top-left-radius: 13vw;
+      border-top-right-radius: 13vw;
+      border-bottom-left-radius: 13vw;
+      border-bottom-right-radius: 13vw;
+      transform:rotate(45deg);
+      top: 4vw;
+      right:43vw;
+    box-shadow: 0 15px 20px rgba(44,14,153,0.67);
+    opacity: 0.47;
+ }
+
+  #part3 {
+     height:26vh;
+     width:52vh;
+     border-radius: 0 0 20vw 20vw;
+     background:pink;
+     bottom: 8vw;
+     right: 31vw;
+     box-shadow: 0 15px 20px white;);
+     transform: rotate(270deg);
+     opacity: 0.47;
+}
+  #part4 {
+     height:26vh;
+     width:52vh;
+     border-radius: 0 0 20vw 20vw;
+     background:pink;
+     bottom: 28vw;
+     right: 33vw;
+     box-shadow: 0 15px 20px white);
+     transform: rotate(270deg);
+     opacity: 0.6;
+}
+  
+</style>
+
+<body>
+<div class="shape" id="part"></div>
+<div class="shape" id="part2"></div>
+<div class="shape" id="part3"></div>
+<div class="shape" id="part4"></div>
+</body>
+</html>
