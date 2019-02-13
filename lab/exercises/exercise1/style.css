@@ -5,7 +5,7 @@ body {
 h1 {
 	font-family: monospace;
 	font-size: 80px;
-	text-shadow: 5px 4px 3px rgba(0,0,0,0.3); 
+	text-shadow: 5px 4px 0px rgba(0,0,0,0.3); 
 	}
 
 h2 { 
@@ -28,7 +28,7 @@ h3 span {
   font-size: 80px;
   line-height: 80px;
   color: #f1ebe5;
-  text-shadow: 0 13.36px 8.896px #c4b59d,0 -2px 1px #fff;
+  text-shadow: 0 -2px 1px #fff,0 13px 12px #c4b59d;
   letter-spacing: -4px;
 }
 
@@ -54,6 +54,9 @@ h6 {
 
 #content {
     width: 50%;
+    padding: 10px;
+    border: 2px solid;
+    box-shadow: 3px 5px 9px pink;
 }
 
 p {

@@ -1,0 +1,187 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-color: lightgrey;
+}
+
+#navigation{
+    width: 200px;
+    height: 100%;
+    padding: 0px 10px 0px 10px;
+    background-color: yellow; 
+    float: right;
+}
+
+#logo{
+    color: black;
+    font-family: "avenir"; 
+}
+
+#logo h1 {
+    margin: 0px 0px 0px 0px;
+    padding: 10px 0px 10px 0px; 
+    font-size: 50px;
+    line-height: 60px;
+    font-family:avenir;
+    color: black;
+}
+
+.nav-link{
+    background-color: yellow;
+    margin: 10px 0px 10px 0px;
+    padding: 10px 10px 10px 10px;
+    font-size: 20px;
+}
+
+.nav-link a {
+    color: black; 
+    text-decoration-color: darkgrey;
+    font-family: "avenir"; 
+    
+}
+
+#content {
+    width: 50%;
+    margin: 0px auto 0px auto;
+    padding: 50px 25px 100px 25px;
+    float: top; 
+}
+
+p {
+    font-family: "avenir";
+    font-size: 14px;  
+    text-align: center;   
+}
+
+h1,h3 {
+    font-family: avenir;
+    text-align: center;
+}
+
+h2 {
+    font-family:avenir;
+    text-align: center;
+    font-size: 14px;
+    width: 50%
+}
+
+#navigation.top{
+    width: 100%;
+    height: auto;
+    padding: 10px 0px 10px 0px;
+    margin: 0px 0px 0px 0px;
+    display: table; 
+}
+
+#navigation.top #logo{
+    float: left;
+    margin: 0px 0px 0px 50px;
+}
+
+#navigation.top #logo h1{
+    padding: 10px 10px 10px 10px;
+    float: left;
+}
+
+#navigation.top .nav-link{
+    float: left;
+    margin: 10px 70px 0px 10px;
+}
+
+.wrapper {
+  overflow: hidden;
+}
+
+.sliding-background {
+  height: 560px;
+  width: 5076px;
+  animation: slide 60s linear infinite;
+}
+
+@keyframes slide {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-1692px, 0, 0);
+  }
+}
+
+img {
+  opacity: 0.5;
+  filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+img:hover {
+  opacity: 1.0;
+  filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row2 {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0.4px;
+}
+.column2 {
+  flex: 50%;
+  padding: 0 4px;
+   position: relative;
+  font-family: Arial;
+}
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.column2 img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 300px;
+}
+
+.column3 img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 400px;
+}
+
+.column4 img {
+  margin-top: 8px;
+  vertical-align: middle;
+
+}
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+
