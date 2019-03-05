@@ -1,0 +1,33 @@
+html body {
+  text-align: center;
+}
+
+#content {
+    padding: 10px;
+    border: 2px solid;
+    box-shadow: 3px 5px 9px pink;
+
+}
+
+h1 {
+	font-family: monospace;
+	position: center;
+	font-size: 10vh;
+	color: #e60073;
+}
+
+h2 {
+	font-family: monospace;
+	position: center;
+	font-size: 7vh;
+	color: pink;
+
+}
+
+p {
+	font-family: monospace;
+	position: center;
+	font-size: 4vh;
+	color: purple;
+
+}
