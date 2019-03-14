@@ -88,7 +88,6 @@ height:auto;
     letter-spacing: 2px;
 }
 
-
 #content {
     width: 50%;
     margin: 100px auto 100px auto;
@@ -123,18 +122,15 @@ p {
     margin: 15px 10px 0px 10px;
 }
 img {
-  opacity: 1;
-  filter: alpha(opacity=100);
+    width: 400px;
+    height: auto;
+     opacity: 1;
+     filter: alpha(opacity=100);
 }
 
 img:hover {
   opacity: 0.5;
   filter: alpha(opacity=50);
-}
-
-img {
-    width: 400px;
-
 }
 
 .column1 {
@@ -147,6 +143,8 @@ img {
 
 .column1 img {
     padding-top: 10px;
+    width: 350px;
+    height: auto;
 
 }
 
@@ -161,7 +159,6 @@ img {
 .column2 img {
     padding-top: 25px;
     padding-left: 50px;
-
 }
 
 .text {
