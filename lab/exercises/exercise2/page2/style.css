@@ -7,48 +7,6 @@ html, body{
     margin: 0;
     font-family: "avenir";
 }
-@media (max-width: 450px) {
-    body{background: #cc9900;}
-     img {
-width:100%;
-height:auto;
-}
-}
-@media(min-width: 451px) and (max-width: 540px) {
-    body {background:#ff9900;}
-     img {
-width:100%;
-height:auto;
-}
-}
-@media(min-width:541px) and (max-width: 768px) {
-    body {background: #ffb3ff;}
-     img {
-width:100%;
-height:auto;
-}
-}
-@media (min-width:769px) and (max-width: 1024) {
-    body {background:#ff00ff;}
-     img {
-width:100%;
-height:auto;
-}
-}
-@media (min-width:1025px) and (max-width:1200px) {
-    body {background:#4da6ff;}
-     img {
-width:100%;
-height:auto;
-}
-}
-@media (min-width: 1201px) {
-    body{background:#33cccc;}
-    img {
-width:100%;
-height:auto;
-}
-}
 
 #navigation {
     width: 200px;
