@@ -1,130 +1,130 @@
+body {
+	margin: 0;
+}
+
+canvas { display: block; }
+
 h1 {
 	font-family: serif;
+	font-size: 9vh;
+	text-shadow: 2px 3px 5px #ffb33f;
+	text-align: center;
 }
 p {
 	font-family: sans-serif;
 }
-.parent {
-	margin: none;
-	width: 300vw;
-	height: 200vh;
-	position: absolute;
-}
-}
-.box {
-	width: 160vw;
-	height: 160vh;
-	margin: 0 auto;
-	margin-top: 5px;
-	margin-left: 5px;
-	border: solid 5px #ffb3ff;
-	position: fixed;
 
+.mybox {
+	margin: none;
+	width: 100%;
+	height: 100%;
+	position: absolute;
 }
 
 .box1{
-	width: 150vw;
-	height: 150vh;
+	width: 98%;
+	height: 99%;
 	margin: 0 auto;
 	margin-top: 5px;
 	margin-left: 5px;
-	border: solid 5px #800080;
+	border: solid 5px #000;
 	position: fixed;  
 }
 
 .box2 {
-	width:148vw;
-	height: 149vh; 
-	margin: 0 auto;
+	width: 96%;
+	height: 98%;
+	margin: auto;
 	margin-top: 5px;
-	margin-left: 5px; 
-	border: solid 5px #ff0000;
+	margin-left: 5px;
+	border: solid 5px #000;
 	position: fixed;
+	
 }
 
 .box3 {
-	width:146vw;
-	height: 148vh; 
+	width:94%;
+	height:97%; 
 	margin: 0 auto;
 	margin-top: 5px;
 	margin-left: 5px; 
-	border: solid 5px  #ff9900;
+	border: solid 5px  #000;
 	position: fixed;
 }
 
 .box4 {
-	width:144vw;
-	height: 147vh; 
+	width:92%;
+	height: 96%; 
 	margin: 0 auto;
 	margin-top: 5px; 
 	margin-left: 5px;
-	border: solid 5px  #cc33ff;
+	border: solid 5px  #000;
 	position: fixed;
 }
 
 .box5 {
-	width:142vw;
-	height: 146vh; 
+	width:90%;
+	height: 95%; 
 	margin: 0 auto;
 	margin-top: 5px; 
 	margin-left: 5px;
-	border: solid 5px #1a1aff;
+	border: solid 5px #000;
 	position: fixed;
 }
 
 .box6 {
-	width:140vw;
-	height: 145vh; 
+	width:88%;
+	height: 94%; 
 	margin: 0 auto;
 	margin-top: 5px; 
 	margin-left: 5px;
-	border: solid 5px #00804d;
+	border: solid 5px #000;
 	position: fixed;
 }
 
 .box7 {
-	width:138vw;
-	height: 144vh; 
+	width:86%;
+	height: 93%; 
 	margin: 0 auto;
 	margin-top: 5px; 
 	margin-left: 5px;
-	border: solid 5px #ff5500;
+	border: solid 5px #000;
 	position: fixed;
 }
 
 .box8 {
-	width:136vw;
-	height: 143vh; 
+	width:84%;
+	height: 92%; 
 	margin: 0 auto;
 	margin-top: 5px; 
 	margin-left: 5px;
-	border: solid 5px #ffff00;
+	border: solid 5px #000;
 	position: fixed;
 }
 
 .box9 {
-	width:134vw;
-	height: 142vh; 
+	width:82%;
+	height: 91%; 
 	margin: 0 auto;
 	margin-top: 5px; 
 	margin-left: 5px;
-	border: solid 5px #cc99ff;
+	border: solid 5px #000;
 	position: fixed;
 }
 
 .box10 {
-	width:132vw;
-	height: 141vh; 
+	width:80%;
+	height: 90%; 
 	margin: 0 auto;
 	margin-top: 5px; 
 	margin-left: 5px;
-	border: solid 5px #aaff00;
+	border: solid 5px #000;
 	position: fixed;
 }
 
 .box11 {
-	width:130vw;
-	height: 140vh; 
+	width:78%;
+	height: 89%; 
 	margin: 0 auto;
 	margin-top: 5px; 
 	margin-left: 5px;
@@ -133,8 +133,8 @@ p {
 }
 
 .box12 {
-	width:128vw;
-	height: 139vh; 
+	width:76%;
+	height: 88%; 
 	margin: 0 auto;
 	margin-top: 5px;
 	margin-left: 5px; 
@@ -143,8 +143,8 @@ p {
 }
 
 .box13 {
-	width:126vw;
-	height:138vh; 
+	width:74%;
+	height:87%; 
 	margin: 0 auto;
 	margin-top: 5px; 
 	margin-left: 5px;
@@ -153,8 +153,8 @@ p {
 }
 
 .box14 {
-	width:124vw;
-	height: 137vh; 
+	width:72%;
+	height: 86%; 
 	margin: 0 auto;
 	margin-top: 5px; 
 	margin-left: 5px;
@@ -163,8 +163,8 @@ p {
 }
 
 .box15 {
-	width:122vw;
-	height: 136vh; 
+	width:70%;
+	height: 85%; 
 	margin: 0 auto;
 	margin-top: 5px; 
 	margin-left: 5px;
@@ -173,8 +173,8 @@ p {
 }
 
 .box16 {
-	width:120vw;
-	height: 135vh; 
+	width:68%;
+	height: 84%; 
 	margin: 0 auto;
 	margin-top: 5px; 
 	margin-left: 5px;
@@ -183,8 +183,8 @@ p {
 }
 
 .box17 {
-	width:118vw;
-	height: 134vh; 
+	width:66%;
+	height: 83%; 
 	margin: 0 auto;
 	margin-top: 5px; 
 	margin-left: 5px;
@@ -193,8 +193,8 @@ p {
 }
 
 .box18 {
-	width:116vw;
-	height: 133vh; 
+	width:64%;
+	height: 82%; 
 	margin: 0 auto;
 	margin-top: 5px; 
 	margin-left: 5px;
@@ -203,8 +203,8 @@ p {
 }
 
 .box19 {
-	width:114vw;
-	height: 132vh; 
+	width:62%;
+	height: 81%; 
 	margin: 0 auto;
 	margin-top: 5px; 
 	margin-left: 5px;
@@ -213,8 +213,8 @@ p {
 }
 
 .box20 {
-	width:112vw;
-	height: 131vh; 
+	width:60%;
+	height: 80%; 
 	margin: 0 auto;
 	margin-top: 5px; 
 	margin-left: 5px;
@@ -223,8 +223,8 @@ p {
 }
 
 .box21 {
-	width:110vw;
-	height: 130vh; 
+	width:58%;
+	height: 79%; 
 	margin: 0 auto;
 	margin-top: 5px; 
 	margin-left: 5px;
@@ -233,8 +233,8 @@ p {
 }
 
 .box22 {
-	width:108vw;
-	height: 129vh; 
+	width:56%;
+	height: 78%; 
 	margin: 0 auto;
 	margin-top: 5px; 
 	margin-left: 5px;
@@ -243,8 +243,8 @@ p {
 }
 
 .box23 {
-	width:106vw;
-	height: 128vh; 
+	width:54%;
+	height: 77%; 
 	margin: 0 auto;
 	margin-top: 5px; 
 	margin-left: 5px;
@@ -253,8 +253,8 @@ p {
 }
 
 .box24 {
-	width:104vw;
-	height: 127vh; 
+	width:52%;
+	height: 76%; 
 	margin: 0 auto;
 	margin-top: 5px; 
 	margin-left: 5px;
@@ -263,8 +263,8 @@ p {
 }
 
 .box25 {
-	width:102vw;
-	height: 126vh; 
+	width:50%;
+	height: 75%; 
 	margin: 0 auto;
 	margin-top: 5px; 
 	margin-left: 5px;
@@ -273,8 +273,8 @@ p {
 }
 
 .box26 {
-	width:100vw;
-	height: 125vh; 
+	width:48%;
+	height: 74%; 
 	margin: 0 auto;
 	margin-top: 5px; 
 	margin-left: 5px;
@@ -283,8 +283,8 @@ p {
 }
 
 .box27 {
-	width:98vw;
-	height: 124vh; 
+	width:46%;
+	height: 73%; 
 	margin: 0 auto;
 	margin-top: 5px; 
 	margin-left: 5px;
@@ -293,8 +293,8 @@ p {
 }
 
 .box28 {
-	width:96vw;
-	height: 123vh; 
+	width:44%;
+	height: 72%; 
 	margin: 0 auto;
 	margin-top: 5px; 
 	margin-left: 5px;
@@ -303,8 +303,8 @@ p {
 }
 
 .box29 {
-	width:94vw;
-	height: 122vh; 
+	width:42%;
+	height:71%; 
 	margin: 0 auto;
 	margin-top: 5px; 
 	margin-left: 5px;
@@ -313,8 +313,8 @@ p {
 }
 
 .box30 {
-	width:92vw;
-	height: 121vh; 
+	width:40%;
+	height: 70%; 
 	margin: 0 auto;
 	margin-top: 5px; 
 	margin-left: 5px;
@@ -323,8 +323,8 @@ p {
 }
 
 .box31 {
-	width:90vw;
-	height: 120vh; 
+	width:38%;
+	height: 69%; 
 	margin: 0 auto;
 	margin-top: 5px; 
 	margin-left: 5px;
@@ -333,8 +333,8 @@ p {
 }
 
 .box32 {
-	width:88vw;
-	height: 119vh; 
+	width:36%;
+	height: 68%; 
 	margin: 0 auto;
 	margin-top: 5px; 
 	margin-left: 5px;
@@ -343,8 +343,8 @@ p {
 }
 
 .box33 {
-	width:86vw;
-	height: 118vh; 
+	width:34%;
+	height: 67%; 
 	margin: 0 auto;
 	margin-top: 5px; 
 	margin-left: 5px;
@@ -353,8 +353,8 @@ p {
 }
 
 .box34 {
-	width:84vw;
-	height: 117vh; 
+	width:32%;
+	height: 66%; 
 	margin: 0 auto;
 	margin-top: 5px; 
 	margin-left: 5px;
@@ -363,8 +363,8 @@ p {
 }
 
 .box35 {
-	width:82vw;
-	height: 116vh; 
+	width:30%;
+	height: 65%; 
 	margin: 0 auto;
 	margin-top: 5px; 
 	margin-left: 5px;
@@ -373,8 +373,8 @@ p {
 }
 
 .box36 {
-	width:80vw;
-	height: 115vh; 
+	width:28%;
+	height: 64%; 
 	margin: 0 auto;
 	margin-top: 5px; 
 	margin-left: 5px;
@@ -383,8 +383,8 @@ p {
 }
 
 .box37 {
-	width:78vw;
-	height: 114vh; 
+	width:26%;
+	height: 63%; 
 	margin: 0 auto;
 	margin-top: 5px; 
 	margin-left: 5px;
@@ -393,8 +393,8 @@ p {
 }
 
 .box38 {
-	width:76vw;
-	height: 113vh; 
+	width:24%;
+	height: 62%; 
 	margin: 0 auto;
 	margin-top: 5px; 
 	margin-left: 5px;
@@ -403,8 +403,8 @@ p {
 }
 
 .box39 {
-	width:74vw;
-	height: 112vh; 
+	width:22%;
+	height: 61%; 
 	margin: 0 auto;
 	margin-top: 5px; 
 	margin-left: 5px;
@@ -413,8 +413,8 @@ p {
 }
 
 .box40 {
-	width:72vw;
-	height: 111vh; 
+	width:20%;
+	height: 60%; 
 	margin: 0 auto;
 	margin-top: 5px; 
 	margin-left: 5px;
@@ -423,8 +423,8 @@ p {
 }
 
 .box41 {
-	width:70vw;
-	height: 110vh; 
+	width:18%;
+	height: 59%; 
 	margin: 0 auto;
 	margin-top: 5px; 
 	margin-left: 5px;
@@ -434,8 +434,8 @@ p {
 }
 
 .box42 {
-	width:68vw;
-	height: 109vh; 
+	width:16%;
+	height: 58%; 
 	margin: 0 auto;
 	margin-top: 5px;
 	margin-left: 5px;
@@ -445,8 +445,8 @@ p {
 
 
 .box43 {
-	width:66vw;
-	height: 108vh; 
+	width:14%;
+	height: 57%; 
 	margin: 0 auto;
 	margin-top: 5px;
 	margin-left: 5px;
@@ -455,8 +455,8 @@ p {
 }
 
 .box44 {
-	width:64vw;
-	height: 107vh; 
+	width:12%;
+	height: 56%; 
 	margin: 0 auto;
 	margin-top: 5px;
 	margin-left: 5px;
@@ -465,8 +465,8 @@ p {
 }
 
 .box45 {
-	width:62vw;
-	height: 106vh; 
+	width:10%;
+	height: 55%; 
 	margin: 0 auto;
 	margin-top: 5px;
 	margin-left: 5px;
@@ -475,8 +475,8 @@ p {
 }
 
 .box46 {
-	width:60vw;
-	height: 105vh; 
+	width:8%;
+	height: 54%; 
 	margin: 0 auto;
 	margin-top: 5px;
 	margin-left: 5px;
@@ -485,8 +485,8 @@ p {
 }
 
 .box47 {
-	width:58vw;
-	height: 104vh; 
+	width:6%;
+	height: 53%; 
 	margin: 0 auto;
 	margin-top: 5px;
 	margin-left: 5px;
@@ -495,8 +495,8 @@ p {
 }
 
 .box48 {
-	width:56vw;
-	height: 103vh; 
+	width:4%;
+	height: 52%; 
 	margin: 0 auto;
 	margin-top: 5px;
 	margin-left: 5px;
@@ -505,8 +505,8 @@ p {
 }
 
 .box49 {
-	width:54vw;
-	height: 102vh; 
+	width:2%;
+	height: 51%; 
 	margin: 0 auto;
 	margin-top: 5px;
 	margin-left: 5px;
@@ -515,20 +515,12 @@ p {
 }
 
 .box50 {
-	width:52vw;
-	height: 101vh; 
+	width:0;
+	height:50%; 
 	margin: 0 auto;
 	margin-top: 5px;
 	margin-left: 5px;
 	border: solid 5px #000000;
 	position: fixed;
 }
-.box51 {
-	width:50vw;
-	height: 100vh; 
-	margin: 0 auto;
-	margin-top: 5px;
-	margin-left: 5px;
-	border: solid 5px #000000;
-	position: fixed;
-}
+
