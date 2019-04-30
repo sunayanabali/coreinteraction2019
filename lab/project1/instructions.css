@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Futura;
+    display: grid;
+    background-color: #ece5da;
+    background-blend-mode: screen;
+    background-repeat: repeat;
+    color: white;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #4c5a70;
+}
+
+a:hover {
+    color: #008f99;
+    transition: .3s all linear;
+}
+
+p {
+    font-family: futura;
+    color: #000;
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+    margin: 20px;
+}
+h1 {
+    text-align: center;
+    text-align: center;
+    font-family: futura;
+    color: #424f63;
+    font-size: 60px;
+}
+
+h3 {
+    color: black;
+    font-size: 13px;
+    letter-spacing: .4px;
+    animation-name: page;
+    animation-duration: 3s;
+    text-align: justify; 
+}
+.bar {
+    background-color:#ece5da ;
+    position: fixed;
+    width: 100%;
+    height: 105px;
+    box-shadow: 2px 2px 5px 2px #424f63;
+    z-index: 100;
+}
+
+.title {
+    position: fixed;
+    font-family: Futura;
+    font-size: 65px;
+    letter-spacing: 3px;
+    color: beige;
+    padding-top: 8px;
+    left: 42px;
+    z-index: 100;
+    width: 100%;
+}
+#content {
+    
+    text-align: center;
+    float: center;
+    padding: 10px;
+    border: 2px solid;
+    box-shadow: 3px 5px 9px #424f63;
+}
+
+h2 {
+    font-size: 40px;
+    text-align: right;
+    right: 200px;
+    color: #424f63;
+    font-family: Futura;
+
+}
+
+#main {
+    position: absolute;
+    top: 250px;
+    padding-left: 800px;
+    padding-right: 150px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: minmax(150px, auto);
+    grid-gap: 30px;
+    padding-bottom: 140px;
+    animation-name: page;
+    animation-duration: 3s;
+}
+
+#main img {
+    display: grid;
+    width: 20vw;
+}
+.info {
+width: 50%;
+text-align: center;
+padding: 10px;
+position: relative;
+}
