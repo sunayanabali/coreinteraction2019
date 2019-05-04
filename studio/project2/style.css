@@ -19,508 +19,566 @@ p {
 	width: 100%;
 	height: 100%;
 	position: absolute;
+	background-color: white;
 }
 
 .box1{
-	width: 98%;
-	height: 99%;
+	width: 96%;
+	height: 98%;
 	margin: 0 auto;
-	margin-top: 5px;
-	margin-left: 5px;
+	margin-top: .5%;
+	margin-left: .5%;
+	border: solid 5px #000;
+	position: fixed; 
+	transition: .1s; 
+	background-color: white;
+}
+
+.box2{
+	width: 92%;
+	height: 96%;
+	margin: 0 auto;
+	margin-top: .5%;
+	margin-left: .5%;
+	border: solid 2px #000;
+	position: fixed;
+	transition: .3s; 
+	background-color: white;
+  
+ }
+
+.box3{
+	width: 88%;
+	height: 94%;
+	margin: 0 auto;
+	margin-top: .5%;
+	margin-left: .5%;
+	border: solid 5px #000;
+	position: fixed;
+	transition: .5s; 
+	background-color: white;
+
+ }
+
+
+.box4{
+	width: 84%;
+	height: 92%;
+	margin: 0 auto;
+	margin-top: .5%;
+	margin-left: .5%;
+	border: solid 2px #000;
+	position: fixed;  
+	transition: .7s; 
+	background-color: white;
+
+}
+
+.box5{
+	width: 80%;
+	height: 90%;
+	margin: 0 auto;
+	margin-top: .5%;
+	margin-left: .5%;
+	border: solid 5px #000;
+	position: fixed;  
+	transition: .7s; 
+	background-color: white;
+
+ }
+
+
+.box6{
+	width: 76%;
+	height: 88%;
+	margin: 0 auto;
+	margin-top: .5%;
+	margin-left: .5%;
+	border: solid 2px #000;
+	position: fixed; 
+	transition: .9s; 
+	background-color: white;
+
+
+ }
+
+
+.box7{
+	width: 72%;
+	height: 86%;
+	margin: 0 auto;
+	margin-top: .5%;
+	margin-left: .5%;
+	border: solid 5px #000;
+	position: fixed; 
+	transition: 1.1s; 
+	background-color: white;
+
+}
+
+.box8{
+	width: 68%;
+	height: 84%;
+	margin: 0 auto;
+	margin-top: .5%;
+	margin-left: .5%;
+	border: solid 2px #000;
+	position: fixed;  
+	transition: 1.3s; 
+	background-color: white;
+}
+
+.box9{
+	width: 64%;
+	height: 82%;
+	margin: 0 auto;
+	margin-top: .5%;
+	margin-left: .5%;
+	border: solid 5px #000;
+	position: fixed; 
+	transition: 1.5s;  
+	background-color: white;
+}
+
+.box10{
+	width: 60%;
+	height: 80%;
+	margin: 0 auto;
+	margin-top: .5%;
+	margin-left: .5%;
+	border: solid 2px #000;
+	position: fixed; 
+	transition: 1.7s; 
+	background-color: white; 
+}
+
+.box11{
+	width: 56%;
+	height: 78%;
+	margin: 0 auto;
+	margin-top: .5%;
+	margin-left: .5%;
+	border: solid 5px #000;
+	position: fixed; 
+	transition: 1.9s; 
+	background-color: white; 
+}
+
+.box12{
+	width: 52%;
+	height: 76%;
+	margin: 0 auto;
+	margin-top: .5%;
+	margin-left: .5%;
+	border: solid 2px #000;
+	position: fixed;  
+	transition: 2.1s; 
+	background-color: white;
+}
+
+.box13{
+	width: 48%;
+	height: 74%;
+	margin: 0 auto;
+	margin-top: .5%;
+	margin-left: .5%;
+	border: solid 5px #000;
+	position: fixed;  
+	transition: 2.3s; 
+	background-color: white;
+}
+.box14{
+	width: 44%;
+	height: 72%;
+	margin: 0 auto;
+	margin-top: .5%;
+	margin-left: .5%;
+	border: solid 2px #000;
+	position: fixed;  
+	transition: 2.5s; 
+	background-color: white;
+}
+
+.box15{
+	width: 40%;
+	height: 70%;
+	margin: 0 auto;
+	margin-top: .5%;
+	margin-left: .5%;
+	border: solid 5px #000;
+	position: fixed; 
+	transition: 2.7s; 
+	background-color: white; 
+}
+
+.box16{
+	width: 36%;
+	height: 68%;
+	margin: 0 auto;
+	margin-top: .5%;
+	margin-left: .5%;
+	border: solid 2px #000;
+	position: fixed;  
+	transition: 2.9s; 
+	background-color: white;
+}
+
+.box17{
+	width: 32%;
+	height: 66%;
+	margin: 0 auto;
+	margin-top: .5%;
+	margin-left: .5%;
+	border: solid 5px #000;
+	position: fixed; 
+	transition: 3.1s;  
+	background-color: white;
+}
+
+.box18{
+	width: 28%;
+	height: 64%;
+	margin: 0 auto;
+	margin-top: .5%;
+	margin-left: .5%;
+	border: solid 2px #000;
+	position: fixed; 
+	transition: 3.3s; 
+	background-color: white; 
+}
+
+.box19{
+	width: 24%;
+	height: 62%;
+	margin: 0 auto;
+	margin-top: .5%;
+	margin-left: .5%;
+	border: solid 5px #000;
+	position: fixed; 
+	transition: 3.5s; 
+	background-color: white; 
+}
+
+.box20{
+	width: 20%;
+	height: 60%;
+	margin: 0 auto;
+	margin-top: .5%;
+	margin-left: .5%;
+	border: solid 2px #000;
+	position: fixed;
+	transition: 3.7s; 
+	background-color: white;  
+}
+
+
+.box21{
+	width: 16%;
+	height: 58%;
+	margin: 0 auto;
+	margin-top: .5%;
+	margin-left: .5%;
+	border: solid 5px #000;
+	position: fixed;
+	transition: 3.9s;  
+	background-color: white; 
+}
+
+.box22{
+	width: 12%;
+	height: 56%;
+	margin: 0 auto;
+	margin-top: .5%;
+	margin-left: .5%;
+	border: groove 2px #000;
+	position: fixed;
+	transition: 4.1s; 
+	background-color: white;  
+}
+
+.box23{
+	width: 8%;
+	height: 54%;
+	margin: 0 auto;
+	margin-top: .5%;
+	margin-left: .5%;
+	border: solid 5px #000;
+	position: fixed;  
+	transition: 4.3s; 
+	background-color: white;
+}
+
+.box24{
+	width: 4%;
+	height: 52%;
+	margin: 0 auto;
+	margin-top: .5%;
+	margin-left: .5%;
+	border: solid 2px #000;
+	position: fixed;  
+	transition: 4.5s; 
+	background-color: white;
+}
+
+.box25{
+	width: 2%;
+	height: 51%;
+	margin: 0 auto;
+	margin-top: .5%;
+	margin-left: .5%;
+	border: solid 1px #000;
+	position: fixed;  
+	transition: 4.7s; 
+	background-color: white;
+}
+
+/*
+.box26{
+	width: 96%;
+	height: 98%;
+	margin: 0 auto;
+	margin-top: .5%;
+	margin-left: .5%;
 	border: solid 5px #000;
 	position: fixed;  
 }
 
-.box2 {
+.box27{
 	width: 96%;
 	height: 98%;
-	margin: auto;
-	margin-top: 5px;
-	margin-left: 5px;
+	margin: 0 auto;
+	margin-top: .5%;
+	margin-left: .5%;
 	border: solid 5px #000;
-	position: fixed;
-	
+	position: fixed;  
 }
 
-.box3 {
-	width:94%;
-	height:97%; 
+.box28{
+	width: 96%;
+	height: 98%;
 	margin: 0 auto;
-	margin-top: 5px;
-	margin-left: 5px; 
-	border: solid 5px  #000;
-	position: fixed;
-}
-
-.box4 {
-	width:92%;
-	height: 96%; 
-	margin: 0 auto;
-	margin-top: 5px; 
-	margin-left: 5px;
-	border: solid 5px  #000;
-	position: fixed;
-}
-
-.box5 {
-	width:90%;
-	height: 95%; 
-	margin: 0 auto;
-	margin-top: 5px; 
-	margin-left: 5px;
+	margin-top: .5%;
+	margin-left: .5%;
 	border: solid 5px #000;
-	position: fixed;
+	position: fixed;  
 }
 
-.box6 {
-	width:88%;
-	height: 94%; 
+.box29{
+	width: 96%;
+	height: 98%;
 	margin: 0 auto;
-	margin-top: 5px; 
-	margin-left: 5px;
+	margin-top: .5%;
+	margin-left: .5%;
 	border: solid 5px #000;
-	position: fixed;
+	position: fixed;  
 }
 
-.box7 {
-	width:86%;
-	height: 93%; 
+.box30{
+	width: 96%;
+	height: 98%;
 	margin: 0 auto;
-	margin-top: 5px; 
-	margin-left: 5px;
+	margin-top: .5%;
+	margin-left: .5%;
 	border: solid 5px #000;
-	position: fixed;
+	position: fixed;  
 }
 
-.box8 {
-	width:84%;
-	height: 92%; 
+.box31{
+	width: 96%;
+	height: 98%;
 	margin: 0 auto;
-	margin-top: 5px; 
-	margin-left: 5px;
+	margin-top: .5%;
+	margin-left: .5%;
 	border: solid 5px #000;
-	position: fixed;
+	position: fixed;  
 }
 
-.box9 {
-	width:82%;
-	height: 91%; 
+.box32{
+	width: 96%;
+	height: 98%;
 	margin: 0 auto;
-	margin-top: 5px; 
-	margin-left: 5px;
+	margin-top: .5%;
+	margin-left: .5%;
 	border: solid 5px #000;
-	position: fixed;
+	position: fixed;  
 }
 
-.box10 {
-	width:80%;
-	height: 90%; 
+.box33{
+	width: 96%;
+	height: 98%;
 	margin: 0 auto;
-	margin-top: 5px; 
-	margin-left: 5px;
+	margin-top: .5%;
+	margin-left: .5%;
 	border: solid 5px #000;
-	position: fixed;
+	position: fixed;  
 }
 
-.box11 {
-	width:78%;
-	height: 89%; 
+.box34{
+	width: 96%;
+	height: 98%;
 	margin: 0 auto;
-	margin-top: 5px; 
-	margin-left: 5px;
-	border: solid 5px #000000;
-	position: fixed;
+	margin-top: .5%;
+	margin-left: .5%;
+	border: solid 5px #000;
+	position: fixed;  
 }
 
-.box12 {
-	width:76%;
-	height: 88%; 
+.box35{
+	width: 96%;
+	height: 98%;
 	margin: 0 auto;
-	margin-top: 5px;
-	margin-left: 5px; 
-	border: solid 5px #000000;
-	position: fixed;
+	margin-top: .5%;
+	margin-left: .5%;
+	border: solid 5px #000;
+	position: fixed;  
 }
 
-.box13 {
-	width:74%;
-	height:87%; 
+.box36{
+	width: 96%;
+	height: 98%;
 	margin: 0 auto;
-	margin-top: 5px; 
-	margin-left: 5px;
-	border: solid 5px #000000;
-	position: fixed;
+	margin-top: .5%;
+	margin-left: .5%;
+	border: solid 5px #000;
+	position: fixed;  
 }
 
-.box14 {
-	width:72%;
-	height: 86%; 
+.box37{
+	width: 96%;
+	height: 98%;
 	margin: 0 auto;
-	margin-top: 5px; 
-	margin-left: 5px;
-	border: solid 5px #000000;
-	position: fixed;
+	margin-top: .5%;
+	margin-left: .5%;
+	border: solid 5px #000;
+	position: fixed;  
 }
 
-.box15 {
-	width:70%;
-	height: 85%; 
+.box38{
+	width: 96%;
+	height: 98%;
 	margin: 0 auto;
-	margin-top: 5px; 
-	margin-left: 5px;
-	border: solid 5px #000000;
-	position: fixed;
+	margin-top: .5%;
+	margin-left: .5%;
+	border: solid 5px #000;
+	position: fixed;  
 }
 
-.box16 {
-	width:68%;
-	height: 84%; 
+.box39{
+	width: 96%;
+	height: 98%;
 	margin: 0 auto;
-	margin-top: 5px; 
-	margin-left: 5px;
-	border: solid 5px #000000;
-	position: fixed;
+	margin-top: .5%;
+	margin-left: .5%;
+	border: solid 5px #000;
+	position: fixed;  
 }
 
-.box17 {
-	width:66%;
-	height: 83%; 
+.box40{
+	width: 96%;
+	height: 98%;
 	margin: 0 auto;
-	margin-top: 5px; 
-	margin-left: 5px;
-	border: solid 5px #000000;
-	position: fixed;
+	margin-top: .5%;
+	margin-left: .5%;
+	border: solid 5px #000;
+	position: fixed;  
 }
 
-.box18 {
-	width:64%;
-	height: 82%; 
+.box41{
+	width: 96%;
+	height: 98%;
 	margin: 0 auto;
-	margin-top: 5px; 
-	margin-left: 5px;
-	border: solid 5px #000000;
-	position: fixed;
+	margin-top: .5%;
+	margin-left: .5%;
+	border: solid 5px #000;
+	position: fixed;  
 }
 
-.box19 {
-	width:62%;
-	height: 81%; 
+.box42{
+	width: 96%;
+	height: 98%;
 	margin: 0 auto;
-	margin-top: 5px; 
-	margin-left: 5px;
-	border: solid 5px #000000;
-	position: fixed;
+	margin-top: .5%;
+	margin-left: .5%;
+	border: solid 5px #000;
+	position: fixed;  
 }
 
-.box20 {
-	width:60%;
-	height: 80%; 
+.box43{
+	width: 96%;
+	height: 98%;
 	margin: 0 auto;
-	margin-top: 5px; 
-	margin-left: 5px;
-	border: solid 5px #000000;
-	position: fixed;
+	margin-top: .5%;
+	margin-left: .5%;
+	border: solid 5px #000;
+	position: fixed;  
 }
 
-.box21 {
-	width:58%;
-	height: 79%; 
+.box44{
+	width: 96%;
+	height: 98%;
 	margin: 0 auto;
-	margin-top: 5px; 
-	margin-left: 5px;
-	border: solid 5px #000000;
-	position: fixed;
+	margin-top: .5%;
+	margin-left: .5%;
+	border: solid 5px #000;
+	position: fixed;  
 }
 
-.box22 {
-	width:56%;
-	height: 78%; 
+.box45{
+	width: 96%;
+	height: 98%;
 	margin: 0 auto;
-	margin-top: 5px; 
-	margin-left: 5px;
-	border: solid 5px #000000;
-	position: fixed;
+	margin-top: .5%;
+	margin-left: .5%;
+	border: solid 5px #000;
+	position: fixed;  
 }
 
-.box23 {
-	width:54%;
-	height: 77%; 
+.box46{
+	width: 96%;
+	height: 98%;
 	margin: 0 auto;
-	margin-top: 5px; 
-	margin-left: 5px;
-	border: solid 5px #000000;
-	position: fixed;
+	margin-top: .5%;
+	margin-left: .5%;
+	border: solid 5px #000;
+	position: fixed;  
 }
 
-.box24 {
-	width:52%;
-	height: 76%; 
+.box47{
+	width: 96%;
+	height: 98%;
 	margin: 0 auto;
-	margin-top: 5px; 
-	margin-left: 5px;
-	border: solid 5px #000000;
-	position: fixed;
+	margin-top: .5%;
+	margin-left: .5%;
+	border: solid 5px #000;
+	position: fixed;  
 }
 
-.box25 {
-	width:50%;
-	height: 75%; 
+.box48{
+	width: 96%;
+	height: 98%;
 	margin: 0 auto;
-	margin-top: 5px; 
-	margin-left: 5px;
-	border: solid 5px #000000;
-	position: fixed;
+	margin-top: .5%;
+	margin-left: .5%;
+	border: solid 5px #000;
+	position: fixed;  
 }
 
-.box26 {
-	width:48%;
-	height: 74%; 
+.box49{
+	width: 96%;
+	height: 98%;
 	margin: 0 auto;
-	margin-top: 5px; 
-	margin-left: 5px;
-	border: solid 5px #000000;
-	position: fixed;
+	margin-top: .5%;
+	margin-left: .5%;
+	border: solid 5px #000;
+	position: fixed;  
 }
 
-.box27 {
-	width:46%;
-	height: 73%; 
+.box50{
+	width: 96%;
+	height: 98%;
 	margin: 0 auto;
-	margin-top: 5px; 
-	margin-left: 5px;
-	border: solid 5px #000000;
-	position: fixed;
+	margin-top: .5%;
+	margin-left: .5%;
+	border: solid 5px #000;
+	position: fixed;  
 }
-
-.box28 {
-	width:44%;
-	height: 72%; 
-	margin: 0 auto;
-	margin-top: 5px; 
-	margin-left: 5px;
-	border: solid 5px #000000;
-	position: fixed;
-}
-
-.box29 {
-	width:42%;
-	height:71%; 
-	margin: 0 auto;
-	margin-top: 5px; 
-	margin-left: 5px;
-	border: solid 5px #000000;
-	position: fixed;
-}
-
-.box30 {
-	width:40%;
-	height: 70%; 
-	margin: 0 auto;
-	margin-top: 5px; 
-	margin-left: 5px;
-	border: solid 5px #000000;
-	position: fixed;
-}
-
-.box31 {
-	width:38%;
-	height: 69%; 
-	margin: 0 auto;
-	margin-top: 5px; 
-	margin-left: 5px;
-	border: solid 5px #000000;
-	position: fixed;
-}
-
-.box32 {
-	width:36%;
-	height: 68%; 
-	margin: 0 auto;
-	margin-top: 5px; 
-	margin-left: 5px;
-	border: solid 5px #000000;
-	position: fixed;
-}
-
-.box33 {
-	width:34%;
-	height: 67%; 
-	margin: 0 auto;
-	margin-top: 5px; 
-	margin-left: 5px;
-	border: solid 5px #000000;
-	position: fixed;
-}
-
-.box34 {
-	width:32%;
-	height: 66%; 
-	margin: 0 auto;
-	margin-top: 5px; 
-	margin-left: 5px;
-	border: solid 5px #000000;
-	position: fixed;
-}
-
-.box35 {
-	width:30%;
-	height: 65%; 
-	margin: 0 auto;
-	margin-top: 5px; 
-	margin-left: 5px;
-	border: solid 5px #000000;
-	position: fixed;
-}
-
-.box36 {
-	width:28%;
-	height: 64%; 
-	margin: 0 auto;
-	margin-top: 5px; 
-	margin-left: 5px;
-	border: solid 5px #000000;
-	position: fixed;
-}
-
-.box37 {
-	width:26%;
-	height: 63%; 
-	margin: 0 auto;
-	margin-top: 5px; 
-	margin-left: 5px;
-	border: solid 5px #000000;
-	position: fixed;
-}
-
-.box38 {
-	width:24%;
-	height: 62%; 
-	margin: 0 auto;
-	margin-top: 5px; 
-	margin-left: 5px;
-	border: solid 5px #000000;
-	position: fixed;
-}
-
-.box39 {
-	width:22%;
-	height: 61%; 
-	margin: 0 auto;
-	margin-top: 5px; 
-	margin-left: 5px;
-	border: solid 5px #000000;
-	position: fixed;
-}
-
-.box40 {
-	width:20%;
-	height: 60%; 
-	margin: 0 auto;
-	margin-top: 5px; 
-	margin-left: 5px;
-	border: solid 5px #000000;
-	position: fixed;
-}
-
-.box41 {
-	width:18%;
-	height: 59%; 
-	margin: 0 auto;
-	margin-top: 5px; 
-	margin-left: 5px;
-
-	border: solid 5px #000000;
-	position: fixed;
-}
-
-.box42 {
-	width:16%;
-	height: 58%; 
-	margin: 0 auto;
-	margin-top: 5px;
-	margin-left: 5px;
-	border: solid 5px #000000;
-	position: fixed;
-}
-
-
-.box43 {
-	width:14%;
-	height: 57%; 
-	margin: 0 auto;
-	margin-top: 5px;
-	margin-left: 5px;
-	border: solid 5px #000000;
-	position: fixed;
-}
-
-.box44 {
-	width:12%;
-	height: 56%; 
-	margin: 0 auto;
-	margin-top: 5px;
-	margin-left: 5px;
-	border: solid 5px #000000;
-	position: fixed;
-}
-
-.box45 {
-	width:10%;
-	height: 55%; 
-	margin: 0 auto;
-	margin-top: 5px;
-	margin-left: 5px;
-	border: solid 5px #000000;
-	position: fixed;
-}
-
-.box46 {
-	width:8%;
-	height: 54%; 
-	margin: 0 auto;
-	margin-top: 5px;
-	margin-left: 5px;
-	border: solid 5px #000000;
-	position: fixed;
-}
-
-.box47 {
-	width:6%;
-	height: 53%; 
-	margin: 0 auto;
-	margin-top: 5px;
-	margin-left: 5px;
-	border: solid 5px #000000;
-	position: fixed;
-}
-
-.box48 {
-	width:4%;
-	height: 52%; 
-	margin: 0 auto;
-	margin-top: 5px;
-	margin-left: 5px;
-	border: solid 5px #000000;
-	position: fixed;
-}
-
-.box49 {
-	width:2%;
-	height: 51%; 
-	margin: 0 auto;
-	margin-top: 5px;
-	margin-left: 5px;
-	border: solid 5px #000000;
-	position: fixed;
-}
-
-.box50 {
-	width:0;
-	height:50%; 
-	margin: 0 auto;
-	margin-top: 5px;
-	margin-left: 5px;
-	border: solid 5px #000000;
-	position: fixed;
-}
-
