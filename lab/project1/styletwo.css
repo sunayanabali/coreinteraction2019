@@ -48,8 +48,8 @@ a:hover {
     width: 100%;
 }
 .memory-game {
-  width: 840px;
-  height: 840px;
+  width: 800px;
+  height: 800px;
   margin: auto;
   display: flex;
   flex-wrap: wrap;
@@ -70,7 +70,7 @@ a:hover {
 
 .memory-card:active {
   transform: scale(0.97);
-  transition: transform .2s;
+  transition: transform .1s;
 }
 
 .memory-card.flip {
@@ -91,53 +91,15 @@ a:hover {
   transform: rotateY(180deg);
 }
 
-.homebutton {
-    background: #ffffff;
-    position: fixed;
-    text-align: center;
-    top: 30px;
-    left: 1215px;
-    font-size: 13px;
-    color: #ffffff;
-    padding: 8px;
-    z-index: 100;
-    font-family: futura
-}
-.homebutton:before {
-    position: absolute;
-    top: -15px;
-    left: 0;
-    border-left: 30px solid transparent;
-    border-right: 30px solid transparent;
-    border-bottom: 15px solid transparent;
-    z-index: 100;
-}
-.homebutton:after {
-    position: absolute;
-    bottom: -15px;
-    left: 0;
-    width: 0;
-    height: 0;
-    border-left: 30px solid transparent;
-    border-right: 30px solid transparent;
-    border-top: 15px solid #424f63;
-    z-index: 100;
-}
+.new{
+  background-color: white;
+  color:black;
+  width: 95%;
+  height: 35px;
+  font-size: 30px;
 
-.level2 {
-    width: 67px;
-    height: 35px;
-    background: #ffffff;
-    position: fixed;
-    text-align: center;
-    top: 30px;
-    left: 1300px;
-    font-size: 13px;
-    color: #ffffff;
-    padding: 8px;
-    z-index: 100;
-    font-family: futura;
 }
+/*
 .level2:before {
     content: "";
     position: absolute;
@@ -162,8 +124,7 @@ a:hover {
     border-top: 15px solid transparent;
     z-index: 100;
 }
-
-
+*/
 .overlay {
   position: fixed;
   top: 0;
@@ -183,19 +144,22 @@ a:hover {
   
 .popup {
   margin: 70px auto;
+  margin-top: 200px;
   padding: 20px;
   background: #ffffff;
   border-radius: 5px;
-  width: 85%;
+  width: 65%;
+  height: 40%;
   position: relative;
   transition: all 5s ease-in-out;
-  font-family: Futura, cursive;
+  font-family: 'Futura', cursive;
+  text-align: center;
 }
   
 .popup h2 {
   margin-top: 0;
   color: #333;
-  font-family: Tahoma, Arial, sans-serif;
+  font-family: Futura;
 }
 
 .popup .close {
@@ -213,13 +177,12 @@ a:hover {
   color: #E5F720;
 }
 
-.popup .content-1{
-  max-height: 30%;
-  overflow: auto;
-  text-align: center;
-}
 .show {
   visibility: visible;
   opacity: 100;
 }
 
+h2{
+  font-size: 300%;
+  margin: 0;
+}
