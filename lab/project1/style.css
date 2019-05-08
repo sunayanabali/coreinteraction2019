@@ -62,7 +62,7 @@ img:hover {
     width: auto;
     height: auto;
     position:relative;
-    top: 110px;
+    top: 15%;
     left:50%;
     transform:translateX(-50%);
     animation-name: images;
@@ -84,8 +84,10 @@ img:hover {
   }
 
 #columns{
-    width: 80vh;
-    height: auto;
+    width: calc(25% - 10px);
+    height: calc(33% - 10px);
+    margin:0;
+    position: relative;
     display: flex;
     flex-direction:row ltr;
     justify-content: center;
@@ -127,7 +129,7 @@ h1 {
     font-size: 60px;
     width: 50%;
 }
-/*
+
 @media screen and (max-width: 1490px) {
     
     .title {
@@ -136,6 +138,7 @@ h1 {
 
     .imgs img {
         width: 300px;
+        height: auto;
     }
 }
 
@@ -143,6 +146,7 @@ h1 {
     
     .imgs img {
         width: 280px;
+        height: auto;
     }
 }
 
@@ -150,6 +154,7 @@ h1 {
     
     .imgs img {
         width: 280px;
+        height: auto;
     }
 }
 
@@ -161,6 +166,7 @@ h1 {
 
     .imgs img {
         width: 250px;
+        height: auto;
     }
 }
 
@@ -168,6 +174,7 @@ h1 {
     
     .imgs img {
         width: 230px;
+        height: auto;
     }
 }
 
@@ -179,6 +186,7 @@ h1 {
 
     .imgs img {
         width: 220px;
+        height: auto;
     }
 }
 
@@ -186,6 +194,7 @@ h1 {
     
     .imgs img {
         width: 200px;
+        height: auto;
     }
 }
 
@@ -208,6 +217,7 @@ h1 {
     
     .imgs img {
         width: 190px;
+        height: auto;
     }
 }
 
@@ -233,6 +243,7 @@ h1 {
 
     .imgs img {
         width: 280px;
+        height: auto;
     }
 }
 */
@@ -243,5 +254,3 @@ h1 {
     border: 2px solid;
     box-shadow: 3px 5px 9px pink;
 }
-
-/* box shadow and animmation transition
