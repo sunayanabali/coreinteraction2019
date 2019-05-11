@@ -1,0 +1,26 @@
+body {
+	width: 50%;
+}
+
+h1 {
+	font-family: monospace;
+	position: center;
+	font-size: 10vh;
+	color: #e60073;
+}
+
+h2 {
+	font-family: monospace;
+	position: center;
+	font-size: 7vh;
+	color: pink;
+
+}
+
+p {
+	font-family: monospace;
+	position: center;
+	font-size: 2vh;
+	color: purple;
+
+}
