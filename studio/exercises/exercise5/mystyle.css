@@ -1,0 +1,224 @@
+body{
+
+	margin: 0px,0px,0px,0px;
+	padding: 0px,0px,0px,0px;
+	background-image: linear-gradient(to left,#99ccff,#ff99ff,#80ff80,#ff8080);
+
+}
+
+.circle1container{
+
+	text-align: center;
+	position: relative;
+	
+}
+
+.circle1{
+
+	margin-top: 150px;
+	width: 400px;
+	height: 400px;
+	border: 2px;
+	border-style: solid;
+	border-color: #FF8C00;
+	background-image: radial-gradient(circle,#FF5500,#FF9617,#FFF106);
+	border-radius: 400px;
+	display: inline-block;
+	animation-name: circleanimation;
+	animation-duration: 10s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+	animation-direction:alternate;
+	position:fixed;
+
+}
+
+@keyframes circleanimation {
+	0% {
+		left: 0%;
+		top: 0%;
+		
+		
+	}
+
+	25% {
+
+		left: 20%;
+		top: 45%;
+		color: rgb(255,0,0);
+		transform: rotate(180deg);
+	}
+
+	75% {
+
+		left: 30%;
+		top: 20%;
+		
+
+	}
+
+
+	100% {
+
+		left: 70%;
+		top: 11%;
+
+	}
+
+	85% {
+
+		left: 30%;
+		top: 5%;
+	}
+
+	35% {
+
+		left: 20%;
+		top: 15%;
+	
+	}
+
+}
+
+.circle2container{
+
+text-align: center;
+position: relative;	
+}
+
+.circle2{
+
+	margin-top: 200px;
+	width: 200px;
+	height: 200px;
+	border: 2px;
+	border-style: solid;
+	border-color: #2E8B57;
+	background-image: radial-gradient(circle,#EB0089,#FF4000,#960CE8);
+	border-radius: 200px;
+	display: inline-block;
+	animation-name: earthanimation;
+	animation-duration: 10s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+	animation-direction:alternate;
+	position:fixed;
+
+}
+
+@keyframes earthanimation {
+	0% {
+		left: 0%;
+		top: -10%;
+		
+	}
+
+	25% {
+
+		left:10%;
+		top: 20%;
+	}
+
+	75% {
+
+		left: 30%;
+		top: 25%;	
+	}
+
+	100% {
+
+		left: 50%;
+		top: 30%;
+	}
+
+	85% {
+
+		left: 70%;
+		top: 25%;	
+	}
+
+	35% {
+
+		left: 90%;
+		top: 20%;
+	
+	}
+
+}
+
+.circle3container{
+
+	text-align: right;
+	position: relative;
+	width:500px;
+}
+
+.circle3{
+
+	margin-top: 150px;
+	width: 100px;
+	height: 100px;
+	border: 2px;
+	border-radius: 100px;
+	border-style: solid;
+	border-color: #DA70D6;
+	background-image: radial-gradient(circle,#16F0EF,#17C9FF,#175BFF);
+	display: inline-block;
+	animation-name: plutoanimation;
+	animation-duration: 10s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+	animation-direction:alternate;
+	position:fixed;
+
+}
+
+@keyframes plutoanimation {
+	0% {
+		right: 0%;
+		bottom: 0%;
+		
+		
+	}
+
+	25% {
+
+		right: 15%;
+		bottom: 20%;
+		transform: skewY(40deg);
+	}
+
+	75% {
+
+		right: 30%;
+		bottom: 50%;
+		transform: skewY(0deg);
+		
+
+	}
+
+
+	100% {
+
+		right: 60%;
+		bottom: 25%;
+		transform: skewX(20deg);
+
+	}
+
+	85% {
+
+		right: 20%;
+		bottom: 25%;
+		transform: skewX(0deg);
+	}
+
+	35% {
+
+		right: 30%;
+		bottom: 15%;
+		rotate:25deg;
+	
+	}
+
+}
